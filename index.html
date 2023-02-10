@@ -16,14 +16,14 @@ function generateQRCode(){
     const signature2 = browserSignature2();
     console.log("Current Browser Unique Signature: ", signature);
     console.log("Current Browser Unique Signature: ", signature2);
-    var text = "id:" + document.getElementById("discordID").value + "|1|" signature + "|2|"+ signature2 ;
+   /* var text = "id:" + document.getElementById("discordID").value + "|1|" signature + "|2|"+ signature2 ;
     var qr = new QRious({
         element: document.getElementById('qrcode'),
         size: 250,
         value: text
     });
     // change the qrcode to be visible
-    document.getElementById("qrcode").style.display = "block";
+    document.getElementById("qrcode").style.display = "block";*/
 }
 </script>
 </head>
